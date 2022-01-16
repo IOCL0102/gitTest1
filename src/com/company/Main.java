@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args)  {
-        System.out.println("Hello World");
-        Scanner input = new Scanner(System.in);
+        printMenu();
+    }
 
-        int x = input.nextInt();
-        System.out.println(x);
-
-        x = x + x;
-        System.out.println("x + x ="+ x );
+    public static void printMenu(){
+        System.out.println("Hello Welcome to my calculator application !");
+        System.out.println("Please select 1 or 2");
+        System.out.println("-> 1 . Addition");
+        System.out.println("-> 2 . Subtraction");
     }
 }
