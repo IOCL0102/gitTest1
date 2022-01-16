@@ -11,5 +11,8 @@ public class Main {
 
         int x = input.nextInt();
         System.out.println(x);
+
+        x = x + x;
+        System.out.println("x + x ="+ x );
     }
 }
